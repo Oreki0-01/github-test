@@ -1,0 +1,37 @@
+# Version control system (VCS): a tool that helps to track changes in code.
+
+Git is a VCS . it is: 
+popular
+free and open source
+fast and scalable
+
+Github:
+website that allows devs to store and manage their code using Git
+
+folder in git - Repository => Repo 
+
+commit -> to save history
+ 
+
+#Configuring git:
+git config --global user.name "My name"
+git config --global user.email "My email"
+
+#to add or commit
+
+->add: Adds new or changed files in your working directory to Git staging area
+git add <file name>     #doesnt show in github .
+git add .   #to add all at once
+
+
+->commit: record of change
+git commit <file name>        #doesnt show in github 
+git commit -m "some message"         #to commit all at once
+
+#to show in github : push command 
+updates local repo to remote repo .   
+
+git push origin main  
+
+#IMP NOTE: dont forget to save the file before adding or commiting
+
